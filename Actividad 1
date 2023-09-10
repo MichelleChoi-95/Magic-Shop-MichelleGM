@@ -1,0 +1,11 @@
+#Primer Actividad
+/**
+ * Primera Tarea
+ * Hola Upiicsa
+ * Gutierrez Martinez Ilce Michelle
+ */
+fun main() {
+    println("Hello UPIICSA!!!")
+    println("Soy, Michelle")
+    println("Me gusta el kpop y los gatitos")
+}
