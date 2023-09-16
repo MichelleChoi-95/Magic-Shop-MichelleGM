@@ -1,0 +1,17 @@
+/**
+ * Actividad 2
+ * Variables y Tipos de datos 
+ * Gutierrez Martinez Ilce Michelle
+ */
+const val PI: Float = 3.1416f
+fun main() {
+    val numdec: Double = 9.22
+    /*println("Para un número decimal, ¿Qué tipo de dato se asigna por defecto?")
+    print("El tipo Double ")
+    println(numdec)*/
+    val numfloat: Float = numdec.toFloat()
+    /*println(numfloat)*/
+    val pcirculo: Float = PI * (numfloat * 2)
+    println("El perimetro del circulo es: $pcirculo")
+    
+}
