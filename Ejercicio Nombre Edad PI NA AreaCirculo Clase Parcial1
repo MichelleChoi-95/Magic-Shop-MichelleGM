@@ -1,0 +1,44 @@
+/**
+ * Gutierrez Martinez Ilce Michelle 
+ * Ejercicio "Area de un círculo"
+ * "Imprimir Nombre"
+ * "Imprimir Edad"
+ * "Imprimir PI"
+ * "Imprimir el Número Aureo"
+ */
+
+import kotlin.math.pow //Importamos librería
+
+const val PI = 3.1416f
+const val NA = 1.6180f
+
+fun main(){
+    val r = 8f
+    val area = AreaCirculo(r)
+    
+    ImprimirNombre("Ilce Michelle Martinez")
+    ImprimirEdad(21)
+    ImprimirPI(PI)
+    ImprimirNA(NA)
+    println("El área del círculo es: $area")
+}
+
+fun ImprimirEdad(Edad:Int):Int{
+    println("Tengo $Edad años de edad")
+    return 0
+}
+fun ImprimirNombre(Nombre:String){
+    println("Mi nombre es $Nombre")
+}
+
+fun ImprimirPI(PI:Float):Float{
+    println("El valor del PI es: $PI")
+    return PI
+}
+fun ImprimirNA(NA:Float):Float {
+    println("El valor del número aureo es: $NA")
+    return NA
+}
+fun AreaCirculo(r:Float):Float{
+    return PI*(r*r)
+}
