@@ -2,9 +2,9 @@
  * Gutierrez Martinez Ilce Michelle 
  * Ejercicio "Tipo de Triángulo"
  */
-val Lado1=5
-val Lado2=5
-val Lado3=5
+val Lado1=7
+val Lado2=2
+val Lado3=9
 
 fun main(){
     
