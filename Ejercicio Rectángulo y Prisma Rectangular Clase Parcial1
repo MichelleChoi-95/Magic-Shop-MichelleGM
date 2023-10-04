@@ -1,0 +1,25 @@
+/**
+ * Gutierrez Martinez Ilce Michelle 
+ * Ejercicio "Rectángulo y Prisma Rectangular"
+ */
+
+val b= 9f
+val al= 5f
+val an= 7f
+
+fun main(){
+    val area = areaRectangulo(b,al)
+    val volumen = volumen(an)
+    println("El area del rectangulo es de: $area")
+    print("El volumen del prisma es de: $volumen")
+}
+
+fun areaRectangulo(b:Float, al:Float):Float
+{
+    return b*al
+}
+
+fun volumen(an:Float):Float
+{
+    return areaRectangulo(b,al)*an
+}
