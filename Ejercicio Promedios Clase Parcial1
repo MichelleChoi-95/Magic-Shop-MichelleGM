@@ -1,0 +1,18 @@
+/**
+ * Gutierrez Martinez Ilce Michelle 
+ * Ejercicio "Promedios"
+ */
+val promedio1 = 8f
+val promedio2 = 7.5f
+val promedio3 = 7f
+
+fun main() 
+{
+    var Promedio = CalculoPromedios(promedio1,promedio2,promedio3)
+    print("El promedio es: $Promedio")
+}
+
+fun CalculoPromedios(promedio1:Float, promedio2:Float, promedio3:Float):Float
+{
+    return (promedio1+promedio2+promedio3)/3
+}
